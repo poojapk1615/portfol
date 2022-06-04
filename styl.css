@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*.header{
+width: 100%;
+height: 100vh;
+}*/
+
+nav{
+	margin: 50px 250px;
+	padding: 10px;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+	z-index: 100;
+}
+
+a{
+margin-right: 50px;}
+
+.text{
+	margin: 100px;
+	max-width: 500px;
+}
+
+.text h1{
+	font-size: 60px;
+	margin-bottom: 20px;	
+}
+
+.text p{
+	font-family: 'Catamaran',sans-serif;
+
+}
+
+.text a{
+	background-color: #A5E437;
+	padding: 10px 30px;
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: 'Tajawal', monospace;
+	font-weight: bold;
+	border-radius: 6px;
+	font-size: 16px;
+	margin-top: 40px;
+}
+
+.imag{
+	background-color: #A5E437;
+	background-size: 300px 100px;
+	position: absolute;
+	top: 0;
+	right: 18%;
+	max-width: 500px;
+	background-size: contain;
+	z-index: 1;
+}
+
+.imag img{
+	display: inline-block;
+	padding-top: 250px;
+	padding-left: 70px;
+	width: 480px;
+	margin-bottom: -205px;
+}
+
+.bgimg{
+	padding-top: 70px;
+	display: inline-block;
+}
+
+.bgimg h1{
+	background-image: url(https://gdurl.com/7hMj);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-size: 90px;
+	padding-left: 100px;
+	display: inline-block;
+}
+
+.bgimg .degree{
+	display: inline-block;
+	padding-left: 170px;
+	max-width: 45%;
+	padding-top: -100px;
+}
+
+.bgimg .degree h2{
+	color: #A5E437;
+	font-size: 30px;
+}
+
+.bgimg .degree h3{
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+}
